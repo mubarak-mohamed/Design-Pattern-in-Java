@@ -4,20 +4,25 @@ public class App {
 
     public static void main(String[] args) {
 
-        Combat zizou = new Combat("Zizou");
-        Combat matera = new Combat("Matera");
+        Combat mage  = new Combat("Mage");
+        Combat chevalier = new Combat("Chevalier");
+        Combat archer = new Combat("Archer");
 
-        zizou.attack(matera);
-        System.out.println(matera.getHealth());
-        zizou.attack(matera);
-        System.out.println(matera.getHealth());
-        zizou.attack(matera);
-        System.out.println(matera.getHealth());
+        mage.attack(chevalier);
+        System.out.println(chevalier.getHealth());
+        mage.attack(chevalier);
+        System.out.println(chevalier.getHealth());
+        mage.attack(chevalier);
+        System.out.println(chevalier.getHealth());
 
-        System.out.println(zizou.isDoped());
-        zizou.steroid();
-        System.out.println(zizou.isDoped());
-        zizou.attack(matera);
-        System.out.println(matera.getHealth());
+
+
+
+        System.out.println(mage.isDoped());
+        mage.steroid();
+        System.out.println(mage.isDoped());
+        mage.attack(chevalier);
+        System.out.println(chevalier.getHealth());
+
     }
 }

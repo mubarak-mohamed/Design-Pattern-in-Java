@@ -1,0 +1,11 @@
+{
+    "cSpell.language": "en-GB",
+    "cSpell.enableFiletypes": [
+        "!typescript",
+        "!typescriptreact",
+        "dockerfile",
+        "dotenv",
+        "sql",
+        "xml"
+    ]
+}

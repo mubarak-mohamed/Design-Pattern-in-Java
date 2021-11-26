@@ -11,6 +11,6 @@ public class Guest extends Person {
 	}
 	
 	public void pick(Flower flower, Garden garden) {
-		System.out.println("Les visiteurs n'ont pas le droit de cueillir");
+		System.out.println("Les visiters n'ont pas le droit de cueillir");
 	}
 }
